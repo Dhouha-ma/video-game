@@ -16,13 +16,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { HttpHeadersInterceptor } from './interceptors/http-header.interceptor';
 import { HttpErrorsInterceptor } from './interceptors/http-params.interceptor';
 import { DetailsComponent } from './components/details/details.component';
+import { GameTabsComponent } from './components/game-tabs/game-tabs.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchBarComponent,
     HomeComponent,
-    DetailsComponent
+    DetailsComponent,
+    GameTabsComponent
   ],
   imports: [
     BrowserModule,
